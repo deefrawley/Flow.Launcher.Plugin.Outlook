@@ -1,0 +1,12 @@
+{
+    "ID": "e11496d5-4cd9-425f-a527-1b38c16fa328",
+    "ActionKeyword": "ol",
+    "Name": "flow.launcher.plugin.outlook",
+    "Description": "See Outlook meetings for today",
+    "Author": "CitizenDee",
+    "Version": "0.0.1",
+    "Language": "python_v2",
+    "Website": "https://github.com/deefrawley/Flow.Launcher.Plugin.Outlook",
+    "IcoPath": "Images/app.png",
+    "ExecuteFileName": "main.py"
+}
