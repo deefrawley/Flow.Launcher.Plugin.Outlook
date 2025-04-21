@@ -4,6 +4,7 @@ from flogin import PlainTextCondition, Query, Result, SearchHandler
 
 from ..plugin import OutlookAgendaPlugin
 
+
 class GetOutlookAgenda(SearchHandler[OutlookAgendaPlugin]):
     def __init__(self):
         super().__init__(PlainTextCondition(""))
@@ -12,8 +13,7 @@ class GetOutlookAgenda(SearchHandler[OutlookAgendaPlugin]):
         assert self.plugin
 
         yield Result(
-                title="Outlook Agenda",
-                sub="Gets agenda",
-                icon="assets/app.png"
-                ),
+            title="Outlook Agenda",
+            sub="Gets agenda",
+            icon="assets/app.png",
         )
